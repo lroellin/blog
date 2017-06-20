@@ -2,6 +2,7 @@
 baseurl = "https://dreami.blog/"
 languageCode = "en-us"
 title = "Dreami's Blog"
+theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
