@@ -8,6 +8,24 @@ googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
 disqusShortname = ""
 
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+
+[[menu.main]]
+    name = "Build a computer"
+    url = "/series/build-a-computer/"
+
+[[menu.main]]
+    name = "Fork me"
+    url = "https://github.com/lroellin/blog"
+
+[taxonomies]
+series = "series"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
 [params]
 	name = "Lukas Röllin"
 	description = "Read all about it (Part 2)"
