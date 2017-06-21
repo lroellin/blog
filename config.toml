@@ -27,8 +27,8 @@ tag = "tags"
 
 [params]
 	name = "Lukas Röllin"
-	description = "Read all about it (Part 2)"
-	bio = "IT Security guy & dev"
+	description = "Personal, technical blog"
+	bio = "Dev & IT Security Guy" 
 	# Enter optionally your twitter account
 	twitter = "Dreamwalkerli"
 	enableRSS = true
