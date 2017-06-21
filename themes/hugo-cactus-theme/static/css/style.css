@@ -130,11 +130,8 @@ nav.main-nav a {
 	border-radius: 3px;
 
 }
-nav.main-nav a.cta {
-	background: #5badf0;
-	color: #fff;
-	margin-left: 12px;
-}
+
+
 
 #wrapper {
   max-width: 600px;
