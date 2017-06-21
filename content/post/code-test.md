@@ -1,6 +1,6 @@
 +++
 date = "2017-06-20T23:57:51+02:00"
-description = "Blabla"
+
 title = "Code Test"
 tags = [ "Python" ]
 series = [ "Build a computer" ]
