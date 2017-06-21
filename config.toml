@@ -22,6 +22,7 @@ disqusShortname = ""
 
 [taxonomies]
 series = "series"
+tag = "tags" 
 
 [permalinks]
   post = "/:year/:month/:title/"
