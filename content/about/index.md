@@ -1,7 +1,7 @@
 +++
 date = "2017-06-20T21:33:37+02:00"
 title = "About"
-hidden = true
+
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.
