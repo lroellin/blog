@@ -142,9 +142,9 @@ i.fa-home {
 
 
 #wrapper {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 60px 40px 100px 40px;
+  padding: 0px 40px 100px 40px;
 }
 
 #wrapper.home {
