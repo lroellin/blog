@@ -55,12 +55,10 @@ A very good [quote](http://stackoverflow.com/questions/573623/is-powershell-read
 
 Read the whole post, it's really informative. I think, the best example are the list of aliases. How to get there? Take a minute to think about. If you did not succeed, simply type  `Get-Alias`. Did you see that there are `ls`, `tee` and `mv`? And if you're on the move from Unix to Windows, then type
 
-```powershell
-PS C:\Users\Dreami> Get-Alias mv
-CommandType Name
------------ ----
-Alias mv -> Move-Item 
-```
+    PS C:\Users\Dreami> Get-Alias mv
+    CommandType Name
+    ----------- ----
+    Alias mv -> Move-Item 
 
 to see what you should use when you're working with people that have no Unix background.
 
