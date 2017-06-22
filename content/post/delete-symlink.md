@@ -1,7 +1,6 @@
 +++
 date = "2013-10-04T22:03:44+02:00"
 title = "Delete symlink"
-
 +++
 
 To delete a symlink (only the link), you treat it like a file.
