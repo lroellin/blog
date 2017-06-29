@@ -50,15 +50,13 @@ You need to send browsers the whole chain of certificates. You usually get these
 # Setup
 First, you'll need to generate your private key and a CSR, signed with it. To do this, switch to a place to store all these files. For me, this is
 
-```bash
-cd /etc/ssl/2014
-```
+    cd /etc/ssl/2014
+
 
 On Linux with OpenSSL, generation can be done in one command:
 
-```bash
-openssl req -nodes -newkey rsa:2048 -keyout private.key -out server.csr
-```
+
+    openssl req -nodes -newkey rsa:2048 -keyout private.key -out server.csr```
 
 I recommend 2048 for key length. It's the length (in bits) of your private key. As said, I won't get into any of these, but let's say it's a fine trade-off between two things that need attention in encryption
 
@@ -85,14 +83,14 @@ You'll then be asked several things. Here are my answers:
 
 Then, provide the CSR to your CA:
 
-```bash
-# cat server.csr
- -----BEGIN CERTIFICATE REQUEST-----
- MIICwjCCAaoCAQAwfTELMAkGA1UEBhMCQ0gxDzANBgNVBAgMBlNjaHd5ejEPMA0G
-(shortened)
- d2FcGG6zpUx14qh1wbh6zAdEkOIquxLgewjArfac8pgKh2kF8N4=
- -----END CERTIFICATE REQUEST-----
- ```
+
+    # cat server.csr
+    -----BEGIN CERTIFICATE REQUEST-----
+    MIICwjCCAaoCAQAwfTELMAkGA1UEBhMCQ0gxDzANBgNVBAgMBlNjaHd5ejEPMA0G
+    (shortened)
+    d2FcGG6zpUx14qh1wbh6zAdEkOIquxLgewjArfac8pgKh2kF8N4=
+    -----END CERTIFICATE REQUEST-----
+
 
 They will test several things and, after some time, send your certificate, possibly along with all the Intermediate and Root certificates.
 
@@ -107,9 +105,8 @@ To bundle these, you have to paste them one-after-another into a text file. The 
 * Intermediate CA Certificate - COMODORSAAddTrustCA.crt
 * Root CA Certificate - AddTrustExternalCARoot.crt
 
-```bash
-cat COMODORSADomainValidationSecureServerCA.crt COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt > www_dreami_ch.ca-bundle
-```
+    cat COMODORSADomainValidationSecureServerCA.crt COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt > www_dreami_ch.ca-bundle
+
 
 The filename is up to you.
 
@@ -134,12 +131,33 @@ So, edit your virtual host entry:
         SSLCertificateChainFile /etc/apache2/ssl/2014/www_dreami_ch.ca-bundle
 
         # Other directives here
-
+    </VirtualHost>
 Then save that file and restart Apache
 
 ```bash
 /etc/init.d/apache2 restart
 ```
 
+# More advanced stuff (optioanl)
+
+## Certificate Signing Algorithm
+When choosing a CA make sure they don't use SHA-1 for signing. SHA2 (i.e. SHA256 or SHA512) is considered good nowadays.
+## Permanent redirect
+If you enable HTTPS you don't want users to still connect via plain old HTTP. To do this, add the highlighted line in your config file.
+
+    <VirtualHost *:80>
+        ...
+        Redirect permanent / https://www.dreami.ch
+    </VirtualHost>
+
+## Ciphers
+In your HTTPS VirtualHost entry, add the following lines. The first one excludes SSLv2 and SSLv3 and protects your connections from the POODLE attack. The second one sets the used ciphers. These ciphers are, in a short answer, the algorithms used in en-/decryption. Your server and the browser have to agree on one, that's why this is a bit of a compatibility issue. [Mozilla](https://wiki.mozilla.org/Security/Server_Side_TLS) has a great article on that, so DON'T choose the ones in the example here, because they may be outdated and may be vulnerable by now. Simply copy-paste the Modern or Intermediate compatiblity ones in the Ciphersuite line.
+
+The ciphers are separated by a colon (:), ciphers specifically not to use are preceeded by an exclamation mark. There are some group names like "EXPORT" that include or exclude a whole group of ciphers.
+
+    # Remove SSLv2 and SSLv3 to protect against POODLE
+    SSLProtocol all -SSLv2 -SSLv3
+    SSLCipherSuite ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:(...):!aNULL:!eNULL:!EXPORT:!DES:!RC4:!3DES:!MD5:!PSK
+
 # Tools
-The most important tool is <a href="https://www.ssllabs.com/ssltest/">Qualys's SSL Labs</a>. It tells you if everything works and what you can improve on.
+The most important tool is [Qualys's SSL Labs](https://www.ssllabs.com/ssltest/). It tells you if everything works and what you can improve on.

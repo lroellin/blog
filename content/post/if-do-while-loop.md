@@ -52,7 +52,7 @@ then wait another minute until checking again
 # Conclusion & Fix
 ~~I am not sure if this is some low-level thing that makes sense in any way (like using goto in the Linux kernel for readability reasons), but I don't get it. How can a programmer that has not just started learning C come up with this kind of code?~~
 
-**Update next day**: after thinking about it some time (remember [taking a step back]({{< relref "post/take-a-step-back.md" >}}) I've come to the conclusion that the developer simply did not know or forgot about the pre-test `while`. He knew that there is a way to repeat something as long as there is a condition given, but did not know how to make the entry point, so he combined `if` and `do-while`.
+**Update next day**: after thinking about it some time (remember [taking a step back]({{< relref "post/take-a-step-back.md" >}})) I've come to the conclusion that the developer simply did not know or forgot about the pre-test `while`. He knew that there is a way to repeat something as long as there is a condition given, but did not know how to make the entry point, so he combined `if` and `do-while`.
 
 Does anyone know if this was the right way to do some time ago? So that a `while` loop is essentially syntactic sugar, like the `for` loop can be broken down into a `while` loop and a set of `switch` cases into `if-elseif`?
 

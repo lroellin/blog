@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://dreami.blog/"
+baseurl = "https://blog.lroellin.ch/"
 languageCode = "en-us"
-title = "Dreami's Blog"
+title = "Lukas Röllin's Blog"
 theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""

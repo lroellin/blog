@@ -1,7 +1,6 @@
 +++
 date = "2013-11-28T23:42:26+02:00"
 title = "Don’t overthink icon decisions"
-
 +++
 
 I often have the problem of overthinking simple decisions, as choosing an icon. I think about if that icon really suits it, if there is a better one and if I don’t re-use icons I used elsewhere in a completely different context.

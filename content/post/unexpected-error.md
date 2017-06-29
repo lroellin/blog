@@ -30,7 +30,7 @@ Uhm... let's go deeper into where this message originates:
 From a technical perspective, you often use the try-catch-finally pattern. That means:
 
 * **Try** something that may lead to a few errors you already know about - these may be not critical (e.g. delete a file)
-* **Catch** expected errors (e.g. file not found, where this may have been deleted before and you don't need it anyway)</li>
+* **Catch** expected errors (e.g. file not found, where this may have been deleted before and you don't need it anyway)
 * **Catch** unexpected errors in a controlled manner
 * *Optional* **Finally** do something in every case, even if the error is so critical, that the application has to quit (e.g. closing a file handle)
 

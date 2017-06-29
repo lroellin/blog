@@ -6,11 +6,14 @@
 		{{ range .Site.Menus.main }}
 			<a href='{{ .URL }}'>{{ .Name }}</a>
 		{{ end }}
-	</div>
-	{{ range $key, $taxonomy := .Site.Taxonomies.series }}
+		|
+		{{ range $key, $taxonomy := .Site.Taxonomies.series }}
         	<a href="/series/{{ $key | urlize }}">{{ $key }}</a>
         {{ end }}
+		|
 		{{ if .Site.Params.enableRSS }}
 			<a class="cta" href="{{ .Site.RSSLink }}"><i class="fa fa-rss" aria-hidden="true"></i> Subscribe</a>
 		{{ end }}
+	</div>
+	
 </nav>
