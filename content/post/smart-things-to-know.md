@@ -1,6 +1,7 @@
 +++
 title = "Smart car: Things to know"
 date = 2014-05-20T03:35:47+02:00
+tags = ["Car"]
 +++
 
 First of all: I'm a 20-year-old male driving a Smart, and yes: I'm perfectly fine with it.

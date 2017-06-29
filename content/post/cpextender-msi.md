@@ -1,6 +1,7 @@
 +++
 title = "CPExtender.msi"
 date = 2015-03-18T14:37:56+02:00
+tags = ["Check Point"]
 +++
 
 A customer needed the MSI for the SSL Network Extender. Searching through documentation, I was told that this *should* be in in

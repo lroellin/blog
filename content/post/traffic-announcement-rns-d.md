@@ -1,6 +1,7 @@
 +++
 title = "Stop traffic announcements (TP) on a Volkswagen (Audi) RNS-D"
 date = 2016-07-14T15:43:10+02:00
+tags = ["Car"]
 +++
 
 After I had my Smart car, I switched to the next weirdo car: the A2. Yes, that's the one who looks like it was designed by engineers and computers. Not pretty, but highly functional. 

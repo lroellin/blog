@@ -1,7 +1,7 @@
 +++
 date = "2013-09-09T15:19:47+02:00"
 title = "Usability Problems"
-
+tags = ["UX"]
 +++
 
 Some people, usually technicians, think that their programs are self-explanatory, intuitive and easy to use. Most of the time, this is not the case. Why? We're technicians. We think in another way that most people do. Remember your math teacher saying "it's all logical!"? That's how people using these programs think.

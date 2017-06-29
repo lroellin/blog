@@ -1,6 +1,7 @@
 +++
 title = "Review: Sony MDR-10RBT Headphones"
 date = 2014-03-12T01:41:54+02:00
+tags = ["Review"]
 +++
 
 I have received these headphones about a week ago, and I think it is time to review them.

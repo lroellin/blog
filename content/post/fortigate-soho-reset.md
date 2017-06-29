@@ -1,6 +1,7 @@
 +++
 title = "Using the reset button on Fortigate SOHO models"
 date = 2014-08-22T14:14:37+02:00
+tags = ["Fortinet"]
 +++
 
 I recently got a FortiGate 20C, but there was a password and various other configurations on it. Because I didn't need them, I wanted to reset it.

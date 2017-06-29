@@ -1,6 +1,7 @@
 +++
 title = "More of Toronto, Milverton and Ottawa"
 date = 2015-07-28T14:48:49+02:00
+tags = ["Canada]
 +++
 
 Hi guys! I'm not lost or anything, times were just too exciting to write :) 

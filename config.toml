@@ -9,6 +9,7 @@ googleAnalytics = ""
 disqusShortname = ""
 
 preserveTaxonomyNames = true
+Paginate = 25
 
 [[menu.main]]
     name = "About"

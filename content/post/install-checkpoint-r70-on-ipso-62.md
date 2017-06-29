@@ -1,6 +1,7 @@
 +++
 title = "Installing Check Point R70.20/R70.30 on IPSO 6.2 Disk-based"
 date = 2014-08-19T04:42:59+02:00
+tags = ["Check Point"]
 +++
 
 I've run into several problems today, so this is a public mental note for anyone who ever runs into the same problem. I know I will, so why not make it easier for everyone.

@@ -1,6 +1,7 @@
 +++
 title = "Build a Gamer PC - Building"
 date = 2016-05-07T15:24:51+02:00
+series = ["Build a PC"]
 +++
 
 Now that we've [chosen our components]({{< relref "post/choosing-components.md" >}}) and gotten them from the vendor, let's build this thing.

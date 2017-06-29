@@ -1,6 +1,7 @@
 +++
 title = "Smartphone UX: don't go back automatically "
 date = 2016-09-18T15:49:14+02:00
+tags = ["UX"]
 +++
 
 I think you encountered this before. Some apps go back to a previous screen automatically for easier use. Now this is a useful feature, but not if 

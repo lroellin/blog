@@ -1,6 +1,7 @@
 +++
 title = "The problem with \"Expert Mode\""
 date = 2013-12-27T01:11:21+02:00
+tags = ["UX"]
 +++
 
 I hope you don't see me as a pessimist for naming everything a problem. A principal once said, there are no problems but challenges. Well, here's a challenge to search a solution for, for you. Some people think, the best way to handle the constant fight on usability vs. featurism and the ability to fine-tune everything, is to introduce an Expert Mode into Windows. Normal users use the (default) normal mode, but once you've gained enough experience, you switch to this Expert Mode where you can set every little setting to your needs. I think this would introduce a lot of problems, especially in a widely used software like Windows.

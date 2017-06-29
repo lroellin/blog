@@ -1,6 +1,7 @@
 +++
 title = "The problem with \"Unexpected error\""
 date = 2013-12-19T00:40:00+02:00
+tags = ["UX"]
 +++
 
 You may have seen applications that crash weirdly. What's the message?

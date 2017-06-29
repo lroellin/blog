@@ -1,6 +1,7 @@
 +++
 title = "IKEA doesn't get mobile"
 date = 2016-03-27T15:10:17+02:00
+tags = ["UX"]
 +++
 
 Just a little rant about mobile UX on a shop that should clearly get it right. 

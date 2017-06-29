@@ -1,6 +1,7 @@
 +++
 title = "Canada"
 date = 2014-05-14T14:39:53+02:00
+tags = ["Canada"]
 +++
 
 As some of you may have heard, I'm going on an extended holiday to Canada. Tickets are booked from 6th of July to 3rd of September, so you hopefully won't hear much tech stuff from me in those 2 months :)

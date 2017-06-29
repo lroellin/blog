@@ -1,6 +1,7 @@
 +++
 title = "First few days - Arriving, Toronto and Niagara Falls"
 date = 2015-07-09T14:41:10+02:00
+tags = ["Canada"]
 +++
 
 So, here it begins. I arrived without any problems on Monday, July 7th. The flight was nice, even for Economy Class. i could even doze off a little bit :)
