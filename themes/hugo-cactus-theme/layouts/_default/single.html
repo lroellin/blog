@@ -4,6 +4,7 @@
         <h1>{{ .Title }}</h1>
         <h2 class="headline">
         {{ .Date.Format "January 2, 2006" }}
+        <a href="https://github.com/lroellin/blog/blame/master/content/{{ .File.Path }}"><i class="fa fa-history" aria-hidden="true"></i></a>
         <br>
         {{ with .Params.tags }}
         {{ if ge (len .) 1 }}

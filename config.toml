@@ -8,13 +8,11 @@ googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
 disqusShortname = ""
 
+preserveTaxonomyNames = true
+
 [[menu.main]]
     name = "About"
     url = "/about/"
-
-[[menu.main]]
-    name = "Build a computer"
-    url = "/series/build-a-computer/"
 
 
 

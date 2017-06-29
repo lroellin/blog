@@ -2,6 +2,6 @@ ul      { margin:0; padding:0; margin-bottom: 20px; list-style-type:circle}
 ol      { list-style: decimal; }
 li      { list-style-position:inside; }
 
-ul > li {
+ul > li, ol > li {
     margin-left: 10px;
 }

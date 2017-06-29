@@ -1,7 +1,6 @@
 +++
 date = "2013-11-15T10:28:17+02:00"
 title = "You can't install anything while installing updates"
-
 +++
 
 Windows has many quirks one does not even want to know about. I've compiled some of these, along with an explanation. Most of the time, I can perfectly understand it from a technical viewpoint, but it does often make NO sense at all from a user perspective
