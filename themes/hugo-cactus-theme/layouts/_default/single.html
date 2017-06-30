@@ -9,10 +9,19 @@
         {{ with .Params.tags }}
         {{ if ge (len .) 1 }}
             {{ range . }}
-                <a href="{{ printf "tags/%s" (. | urlize) | absURL }}">{{ . }}</a>
+                <a href="{{ printf "tags/%s" (. | urlize) | absURL }}">{{ . }} <i class="fa fa-tag" aria-hidden="true"></i></a>
             {{ end }}
         {{ end }}
         {{ end}}
+        {{ with .Params.series }}
+        {{ if ge (len .) 1 }}
+            {{ range . }}
+                <a href="{{ printf "series/%s" (. | urlize) | absURL }}">{{ . }} <i class="fa fa-book" aria-hidden="true"></i></a>
+            {{ end }}
+        {{ end }}
+        {{ end}}
+        <br>
+        {{ .WordCount }} words, a {{.ReadingTime }} minutes read
         </h2>
     </header>
     <section id="post-body">
@@ -32,6 +41,8 @@
         {{ partial "share.html" . }}
     </section>
 </footer>
+
+
 
 {{ template "_internal/disqus.html" . }}
 

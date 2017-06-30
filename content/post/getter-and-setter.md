@@ -10,7 +10,7 @@ In Java, the compiler does a great job at keeping you from doing stupid things. 
 
 I found a nice quote about this from The Benevolent Dictator: "We're all consenting adults". So it's your job to keep an eye on what you access and if that's possible. However keep in mind that IDEs do a great job of telling you these things, but it's not the default for a Python instalation.
 
-Now for the first thing we're gonna look at: getter and setter. This will be me paraphrasing [](https://archive.org/details/SeanKellyRecoveryfromAddiction).
+Now for the first thing we're gonna look at: getter and setter. This will be me paraphrasing [this video](https://archive.org/details/SeanKellyRecoveryfromAddiction).
 
 In Java, again, you write a class and put in private attributes. You then write a constructor and public getter and setter for that (ok, your IDE does). This is to stop you from breaking the encapsulation. And if you want to validate something on the setter, then you have a single place to change.
 

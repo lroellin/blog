@@ -11,6 +11,7 @@ preserveTaxonomyNames = true
 
 [blackfriday]
 hrefTargetBlank = true
+extensions = ["hardLineBreak"]
 
 [[menu.main]]
     name = "About"

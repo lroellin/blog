@@ -8,7 +8,7 @@
 		{{ end }}
 		|
 		{{ range $key, $taxonomy := .Site.Taxonomies.series }}
-        	<a href="/series/{{ $key | urlize }}">{{ $key }}</a>
+        	<a href="/series/{{ $key | urlize }}"><i class="fa fa-book" aria-hidden="true"></i> {{ $key }}</a>
         {{ end }}
 		|
 		{{ if .Site.Params.enableRSS }}

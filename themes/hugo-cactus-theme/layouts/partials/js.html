@@ -2,7 +2,11 @@
 <script src="{{ "js/main.js" | absURL }}"></script>
 <script src="{{ "js/highlight.pack.js" | absURL }}"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-
+{{ if not .IsNode }}
+<script>
+$("#post-body h1, #post-body h2, #post-body h3, #post-body h4, #post-body h5, #post-body h6").each(function() { $(this).append('<a href=#' + $(this).context.id + ' class="anchor"> <i class="fa fa-link" aria-hidden="true"></i> </a>') })
+</script>
+{{ end }}
 {{ range .Site.Params.customJS }}
 <script src="{{ . | absURL }}"></script>
 {{ end }}
