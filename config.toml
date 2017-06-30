@@ -8,7 +8,9 @@ googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
 
 preserveTaxonomyNames = true
-Paginate = 25
+
+[blackfriday]
+hrefTargetBlank = true
 
 [[menu.main]]
     name = "About"
