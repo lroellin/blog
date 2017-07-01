@@ -23,4 +23,4 @@ Well, those manufacturers think the same. If your physical access layer is broke
 
 Another important aspect is that devices have to trust their environment. It's like kids, they trust you to navigate them through the first years of their life. If you tamper with the SSO device and the break-in fuse didn't trigger, you can do whatever you want. You could apply logic analyzers to the mainboard (while running) and find stuff out about it. Of course there are counter measures, but generally the device has to have a trusted base workspace. 
 
-So if you ever hear someone "Hey, I cracked that computer over there" you can just say "Oh cool. Anyway, ..." 
+So if you ever hear someone "Hey, I cracked that computer over there" you can just say "Oh cool. Anyway, ..."

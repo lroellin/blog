@@ -16,6 +16,7 @@ But there are places where that ain't so easy. Take the PS4, it's quite fine whe
 I think the worst are charging devices. Two examples:
 
 Charging a PS4 controller is like not turning off your lights. The light bar (which I hate anyway) is pulsing, which makes it even more annoying.
+
 Just yesterday, I bought a wireless charging pad from Samsung. Samsung has an annoying history of not respecting people's sleep, with the S2 telling you that it's charged up completely with a loud and annoying beep. Now they did it again: when you're charging, the whole pad lights up. It does stop apparently when it's fully charged but that doesn't help much.
 
 Now see, I know that LEDs are cool and cheap. They are a fast way to tell the user how a device is behaving, that pad can tell you by its lights when the device isn't fit correctly. I know just by looking at the pad that it's still charging up (guess what, I already know that by my phone). But please, please, give an option to turn them off. Could be something easy like a little switch, or something secret like pouring unicorn blood over it. Who knows. Just do something about it.
