@@ -44,7 +44,6 @@ Another weird thing was when you had to install the base package via web interfa
 
 My proposal: fix these misleading messages and provide useful help. The error messages provided sound like "this guy can't walk" instead of "get him an ambulance, he's got a broken leg".
 
- 
 # Partial UIs
 
 One thing I hate about certain products is that they're only partly configurable by some kind of UI (like a GUI, or some nurses text-based ones). They also rely on plain text files. 
