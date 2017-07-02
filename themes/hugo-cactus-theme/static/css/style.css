@@ -109,21 +109,22 @@ h2 {
 nav {
 	padding: 20px 20px 0;
 
-	max-width: 800px;
 	/*width:100%;*/
 	background: #fff;
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: baseline;
 	
 	/*position: fixed;*/
 	z-index: 100;
 }
 
-div.main-nav {
-	display: inline-block;
-}
 
-div.main-nav a {
+nav a {
 	top: 8px;
 	right: 6px;
 	padding: 8px 12px;
@@ -511,6 +512,8 @@ Post List
 	font-size:13px;
 	font-weight:500;
 	margin-top: 20px;
+	display: flex;
+    justify-content: space-between;
 }
 
 #post-nav span {
@@ -520,14 +523,6 @@ Post List
 	-o-transition: all 0.1s linear;
 	transition: all 0.1s linear;
 	position: relative;
-}
-
-#post-nav span.prev {
-	float: left;
-}
-
-#post-nav span.next {
-	float: right;
 }
 
 #post-nav span .arrow {
