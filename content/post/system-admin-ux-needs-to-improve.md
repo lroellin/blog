@@ -6,7 +6,7 @@ tags = ["UX"]
 
 So as you may know, I'm working as an IT security guy. Part of my job is installing systems and maintaining them. So I get to see a lot of different products.
 
-My main problem is that system administration is not easy or intuitive. There's far too much bullshit I have to go through for simple tasks. Sometimes it even leads you the wrong way. I'm not calling names here because I don't want to shame, I want to help. People who know the struggle will recognize it. I'll also  add an enhancement for each problem so that it's not just telling how bad everything is.
+My main problem is that system administration is not easy or intuitive. There's far too much bullshit I have to go through for simple tasks. Sometimes it even leads you the wrong way. I'm not calling names here because I don't want to shame, I want to help. People who know the struggle will recognize it. I'll also add an enhancement for each problem so that it's not just telling how bad everything is.
 
 Also note that I'm aware of the phrase "With great power comes great responsibility". I know that it's my fault when I'm screwing up without having properly read documentation. I just want to say that all that should be easier to avoid.
 
