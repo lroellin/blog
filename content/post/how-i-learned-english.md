@@ -36,7 +36,7 @@ I may would have been able to understand it, but it was far too quick and far to
 <h1>2009</h1>
 I finished school in this year, so I had no English lessons after that. Shortly before the end, I had my first experience with reading English without translating in my head. I read a manual of an (open source) software I was using on my netbook, but part of it was not yet translated. Some minutes later, I noticed that I had just read through a whole paragraph of English without even thinking about it.
 
-After school, I took an internship at a computer shop that was offering support too. I couldn't practise English all too much, apart from reading. I remember one occurrence though, where I was able to help an expat lady with her family's computer.
+After school, I took an internship at a computer shop that was offering support too. I couldn't practice English all too much, apart from reading. I remember one occurrence though, where I was able to help an expat lady with her family's computer.
 <h1>2010-2012</h1>
 I started my apprenticeship in 2010, so I got English in school again. This time, it was somewhat better, and I really liked English lessons again. It may be due to the fact that our teacher was from the UK and that really showed off, in having no foreign accent.
 
@@ -54,4 +54,4 @@ I think something that's far overrated is remembering words. Even I had to look 
 
 In this post, I wanted to show you how I learned English. I hope you got a good view of why I like using it, and why I think it's really easy.
 
-My favourite advice: just listen, read and watch English media, it's really worth the effort. At first, you're struggling, but that's not gonna last very long and your level of English will raise a lot.
+My favorite advice: just listen, read and watch English media, it's really worth the effort. At first, you're struggling, but that's not gonna last very long and your level of English will raise a lot.

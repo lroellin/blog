@@ -14,7 +14,7 @@ This blog post is my opinion what is important in designing your application for
 
 This is by far the biggest issue. Technicians think, people want to know EVERYTHING their program does. Please, please: I do not want to know that you've just moved A to position B. Well, you can write (and I encourage you to do so) in a debugging log file.
 
-I really hope everyone is getting this message. Put technical details in places where actual technicials and people who kow what to do, read them.
+I really hope everyone is getting this message. Put technical details in places where actual technicians and people who kow what to do, read them.
 
 A bad example is WinZip. If you extract files, it uses some temporary space on your disk. That's fine, I have lots of space left. The problem comes when you're shutting down Windows. You just forgot to close WinZip, what a shame! And it tells you with an error message. Actually, it's a dialog. It reads the following
 

@@ -7,7 +7,7 @@ Some time ago, Logitech announced they were in big financial trouble and they ne
 
 That is a good thing. Here's some stories of my last stuff I bought. Note first that I'm actually kinda loyal to Logitech, especially being a Swiss company. But they fucked up badly in the last years.
 
-First for my profile: I'm a CS student, so I need to have an easily-typable keyboard. But I'm also a gamer, so I need features like anti-ghosting. But I've never had problems with ghosting on normal keyboards so I guess the games I play (mostly FPS) are not that demanding, at least at my skill level.
+First for my profile: I'm a CS student, so I need to have an easily-typeable keyboard. But I'm also a gamer, so I need features like anti-ghosting. But I've never had problems with ghosting on normal keyboards so I guess the games I play (mostly FPS) are not that demanding, at least at my skill level.
 
 The worst offender here is my trusty keyboard, the Logitech Illuminated. It features flat keys and an illuminated backplane. Nothing fancy, just some FN keys for media control and such. I loved this keyboard that much that I bought it again after my old one died (of drowning in iced tea). So I fired up some CoD and played single player. But there was one run-jump that I couldn't do if my life depended on it. Since this was a replay, I was fairly sure I made jump some time ago. Upon closer inspection I saw that I didn't even jump, just run and fall to your death. Could it be they... no, no, no, I'm incapable. So I got my wireless media keyboard (K800) over and tried again. Worked perfectly on the first try. What the actual fuck?
 

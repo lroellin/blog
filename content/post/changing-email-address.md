@@ -12,11 +12,11 @@ Fortunately, I'm using a password manager, so I at least had a listing of accoun
 3. Confirm the new address
 4. Done
 
-I also took the opportunity and added +domain to the address I registered, so if I reveice spam I at least know where I got it from. Apparently, some sites don't like that and I had to enter just the normal email address. That's because [a regex for email is hard.](http://emailregex.com/)
+I also took the opportunity and added +domain to the address I registered, so if I receive spam I at least know where I got it from. Apparently, some sites don't like that and I had to enter just the normal email address. That's because [a regex for email is hard.](http://emailregex.com/)
 
-Some other accounts are quite deeply embedded into your actual operating system. I didn't try changing my Microsoft or my Apple account, nor my PSN account since I feared of geting logged out and losing my purchases. Maybe it works, but I don't have much trust in it.
+Some other accounts are quite deeply embedded into your actual operating system. I didn't try changing my Microsoft or my Apple account, nor my PSN account since I feared of getting logged out and losing my purchases. Maybe it works, but I don't have much trust in it.
 
-On other occassions, I simply could not change my address. On one site I got into a weird account state where it wouldn't let me confirm my address (it's already confirmed) but I couldn't log in too (you need to confirm it). So it seems that that part of the site is not as thoroughly tested...
+On other occasions, I simply could not change my address. On one site I got into a weird account state where it wouldn't let me confirm my address (it's already confirmed) but I couldn't log in too (you need to confirm it). So it seems that that part of the site is not as thoroughly tested...
 
 Some other sites apparently use mail distributors for things like newsletters. This is ok, but it took a while until those distributors got my new address or it hasn't happened yet aswell. So updating an address needs to go through everywhere.
 

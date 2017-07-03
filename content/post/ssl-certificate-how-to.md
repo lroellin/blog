@@ -138,7 +138,7 @@ Then save that file and restart Apache
 /etc/init.d/apache2 restart
 ```
 
-# More advanced stuff (optioanl)
+# More advanced stuff (optional)
 
 ## Certificate Signing Algorithm
 When choosing a CA make sure they don't use SHA-1 for signing. SHA2 (i.e. SHA256 or SHA512) is considered good nowadays.
@@ -151,9 +151,9 @@ If you enable HTTPS you don't want users to still connect via plain old HTTP. To
     </VirtualHost>
 
 ## Ciphers
-In your HTTPS VirtualHost entry, add the following lines. The first one excludes SSLv2 and SSLv3 and protects your connections from the POODLE attack. The second one sets the used ciphers. These ciphers are, in a short answer, the algorithms used in en-/decryption. Your server and the browser have to agree on one, that's why this is a bit of a compatibility issue. [Mozilla](https://wiki.mozilla.org/Security/Server_Side_TLS) has a great article on that, so DON'T choose the ones in the example here, because they may be outdated and may be vulnerable by now. Simply copy-paste the Modern or Intermediate compatiblity ones in the Ciphersuite line.
+In your HTTPS VirtualHost entry, add the following lines. The first one excludes SSLv2 and SSLv3 and protects your connections from the POODLE attack. The second one sets the used ciphers. These ciphers are, in a short answer, the algorithms used in en-/decryption. Your server and the browser have to agree on one, that's why this is a bit of a compatibility issue. [Mozilla](https://wiki.mozilla.org/Security/Server_Side_TLS) has a great article on that, so DON'T choose the ones in the example here, because they may be outdated and may be vulnerable by now. Simply copy-paste the Modern or Intermediate compatibility ones in the Ciphersuite line.
 
-The ciphers are separated by a colon (:), ciphers specifically not to use are preceeded by an exclamation mark. There are some group names like "EXPORT" that include or exclude a whole group of ciphers.
+The ciphers are separated by a colon (:), ciphers specifically not to use are preceded by an exclamation mark. There are some group names like "EXPORT" that include or exclude a whole group of ciphers.
 
     # Remove SSLv2 and SSLv3 to protect against POODLE
     SSLProtocol all -SSLv2 -SSLv3

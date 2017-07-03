@@ -41,7 +41,7 @@ Below is a Powershell example of that. The optional finally-part is not used:
 Try
 {
     # This may not exist, we just don't want it here
-    Remove-Item "C:somenonexistentfolderfile.txt" -ErrorAction Stop
+    Remove-Item "C:somenonexistingfolderfile.txt" -ErrorAction Stop
 }
 
 Catch [System.Management.Automation.ItemNotFoundException]

@@ -8,7 +8,7 @@ I'm currently in the process of learning Python. What I know is Java and C# and 
 
 In Java, the compiler does a great job at keeping you from doing stupid things. In Python, that's up to you since the script is loaded as needed (not exactly in the technical meaning) and run from top to bottom (again, not exactly technically). And because all that happens quite fast and you don't spend much time on it, the compiler won't check such stuff for you before this code is executed.
 
-I found a nice quote about this from The Benevolent Dictator: "We're all consenting adults". So it's your job to keep an eye on what you access and if that's possible. However keep in mind that IDEs do a great job of telling you these things, but it's not the default for a Python instalation.
+I found a nice quote about this from The Benevolent Dictator: "We're all consenting adults". So it's your job to keep an eye on what you access and if that's possible. However keep in mind that IDEs do a great job of telling you these things, but it's not the default for a Python installation.
 
 Now for the first thing we're gonna look at: getter and setter. This will be me paraphrasing [this video](https://archive.org/details/SeanKellyRecoveryfromAddiction).
 
