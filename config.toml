@@ -11,18 +11,17 @@ preserveTaxonomyNames = true
 
 [blackfriday]
 hrefTargetBlank = true
-extensions = ["hardLineBreak"]
 
 [[menu.main]]
     name = "About"
     url = "/about/"
 
 [taxonomies]
-series = "series"
-tag = "tags" 
+	series = "series"
+	tag = "tags" 
 
 [permalinks]
-  post = "/:section/:year/:month/:title/"
+	post = "/:section/:year/:month/:title/"
 
 [params]
 	name = "Lukas Röllin"
