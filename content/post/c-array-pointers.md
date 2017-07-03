@@ -38,7 +38,7 @@ numbers[x];
 
 So how does this work with memory? The way I always understood it, is: let's say `numbers` is at memory address `0x800`. And let's say, `int` is 4 bytes long (32 bit, remember this is C so it's not set), which you can get by `sizeof(int)`.
 
-That way, `numbers[x]` will always lie at `0x800` + `x` * 4. So `numbers[1]` is at `0x804`, `numbers[2] is at `0x808`, and `numbers[4]` is at `0x810` (remember, this is hexadecimal).
+That way, `numbers[x]` will always lie at `0x800` + `x` * 4. So `numbers[1]` is at `0x804`, `numbers[2]` is at `0x808`, and `numbers[4]` is at `0x810` (remember, this is hexadecimal).
 
 Or, more general (`array` and `n` are arbitrary)
 
