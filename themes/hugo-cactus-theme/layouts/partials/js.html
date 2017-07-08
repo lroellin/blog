@@ -5,6 +5,22 @@
 {{ if not .IsNode }}
 <script>
 $("#post-body h1, #post-body h2, #post-body h3, #post-body h4, #post-body h5, #post-body h6").each(function() { $(this).append('<a href=#' + $(this).context.id + ' class="anchor"> <i class="fa fa-link" aria-hidden="true"></i> </a>') })
+window.onload = function() {
+    var search = function(caller) {
+        location='http://www.google.com/search?q=site%3Ablog.lroellin.ch+' + encodeURIComponent(document.getElementById('searchbox').value);
+    };
+
+    document.getElementById('searchbox').addEventListener('keydown', function(){
+       if (event.keyCode == 13 || event.which == 13) { 
+           search();
+        }
+    });
+
+    document.getElementById('searchlink').addEventListener('click', function(){
+        search();
+    });
+};
+
 </script>
 {{ end }}
 {{ range .Site.Params.customJS }}

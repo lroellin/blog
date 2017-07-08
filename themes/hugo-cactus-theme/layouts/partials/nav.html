@@ -13,6 +13,8 @@
         {{ end }}
 	</section>
 	<section>
+		<input id="searchbox" type="search" placeholder="Search"/>
+		<a id="searchlink" href="#" ><i class="fa fa-search" aria-hidden="true"></i></a>
 		{{ if .Site.Params.enableRSS }}
 			<a class="cta" href="{{ .Site.RSSLink }}"><i class="fa fa-rss" aria-hidden="true"></i> Subscribe</a>
 		{{ end }}
