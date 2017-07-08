@@ -133,7 +133,10 @@ nav a {
 	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
+}
 
+nav > section {
+	margin-bottom: 10px;
 }
 
 i.fa-home {
