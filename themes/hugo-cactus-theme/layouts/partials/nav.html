@@ -13,8 +13,9 @@
         {{ end }}
 	</section>
 	<section>
-		<input id="searchbox" type="search" placeholder="Search"/>
-		<a id="searchlink" href="#" ><i class="fa fa-search" aria-hidden="true"></i></a>
+		<input id="searchbox" type="search" placeholder="Search" results=5 autosave="128f19b0-eb45-4e4b-b88c-0121c64945ae"
+			onkeydown="if (event.keyCode == 13 || event.which == 13) { location='http://www.google.com/search?q=site%3Ablog.lroellin.ch+' + encodeURIComponent(document.getElementById('searchbox').value);}" />
+		<a href="#" onclick="location='http://www.google.com/search?q=site%3Ablog.lroellin.ch+' + encodeURIComponent(document.getElementById('searchbox').value);"><i class="fa fa-search" aria-hidden="true"></i></a>
 		{{ if .Site.Params.enableRSS }}
 			<a class="cta" href="{{ .Site.RSSLink }}"><i class="fa fa-rss" aria-hidden="true"></i> Subscribe</a>
 		{{ end }}
