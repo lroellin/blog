@@ -52,7 +52,7 @@ So let's take a look at the pictures above, but in a bit more detail
 ## Front</h2>
 
 ![](/post/inside-front.jpg)
- 
+
 You can see that there are no cables blocking airflow. The GPU power cables are the only ones that are in the way but I see no other way of installing it nicely.
 
 I tied all the case connectors together with Velcro to make sure they don't lie around. I used Velcro instead of cable ties since I might have to modify something.
