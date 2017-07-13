@@ -5,7 +5,7 @@ date = 2017-07-03T19:28:07+02:00
 
 This post will be about how arrays work in C, at least to the point that I know of yet. It helped me understand things better on how they even work and I just wanna share this in case someone has the same problems I had :) As always, because C is so complex, I'll tell you enough to be dangerous, but not much more. There probably is another layer of abstraction behind all this...
 
-Ok, so you all know arrays. They're taught to us as a series of variables of the same type. You gotta know beforehand how many you want[^1]. Here's an example of initializing an array of 5 `int`s.
+Ok, so you all know arrays. They're taught to us as a series of variables of the same type. You gotta know beforehand how many you want (I know that there are other ways so that you don't have to know the number beforehand, this is to keep it simple). Here's an example of initializing an array of 5 `int`s.
 
 ```cpp
 int numbers[5];
@@ -47,5 +47,3 @@ array[x];
 ```
 
 lies at memory address of `array` + `sizeof(TYPE)` * `x`. So `array` is the base address, and `sizeof(TYPE)` * `x` is the offset. If `x` happens to be 0, you end up with your first element. And I guess that's also why arrays tend to start with 0.
-
-[^1]: I know that there are other ways so that you don't have to know the number beforehand, this is to keep it simple.

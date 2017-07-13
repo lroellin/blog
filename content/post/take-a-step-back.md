@@ -28,6 +28,4 @@ When you're starting to program, you often have easy problems where you're devel
 
 You'll be having a solution to this problem in no time at all. If you find this too easy, think of a solution for a 3D-pyramid like this, full and hollowed.
 
-As you think of this solution, you'll try to implement it. But you are not error-free and you will run into problems, especially as these exercises get more and more tricky. It has always helped me to just do something else. I even did that for this post when I had no inspiration for an example. Take a walk[^1], do some other work, just do something else than working on that very problem. Ideas and inspirations will fly through your mind, until it clicks and you really know how to solve it.
-
-[^1]: Walking around the office can be weird, but it really helps. I think this is related to a stimulated blood flow, but I'm no physiologist.
+As you think of this solution, you'll try to implement it. But you are not error-free and you will run into problems, especially as these exercises get more and more tricky. It has always helped me to just do something else. I even did that for this post when I had no inspiration for an example. Take a walk (Walking around the office can be weird, but it really helps. I think this is related to a stimulated blood flow, but I'm no physiologist), do some other work, just do something else than working on that very problem. Ideas and inspirations will fly through your mind, until it clicks and you really know how to solve it.

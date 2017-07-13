@@ -10,11 +10,9 @@ Chrome recently introduced a feature, which allows you to see which tab makes no
 
 Did you know, that Windows has the same feature, just on application-level?
 
-Since Vista, you can click on the speaker button in the "System Tray"[^1], then choose "Mixer" (in my german Windows).
+Since Vista, you can click on the speaker button in the "System Tray" (This term is wrong, it's actually the Notification Area, but people seem to know it by this name), then choose "Mixer" (in my german Windows).
 
 ![](/post/howto_sound.png)
 
 Then you can see, that currently Skype uses sound, for calling the famous Echo service.
 ![](/post/howto_volume.png)
-
-[^1]: This term is wrong, it's actually the Notification Area, but people seem to know it by this name.

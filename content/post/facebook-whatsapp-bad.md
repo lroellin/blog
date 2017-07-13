@@ -31,8 +31,7 @@ Facebook has acquired WhatsApp to have a greater user base. Cool. But how does F
 # Privacy
 Some might say, this is not a problem at all, because it's just giving your data to another party. But, in my opinion, WhatsApp is more trustworthy since it's not linked with a shitload of other data. Sure, they've got what I tell my friends, but Facebook has shown in the past, that they like to share a little too much. And WhatsApp is not selling my data, like Facebook for their personalized ads.
 
-WhatsApp has had some issues like unencrypted connections, but I think users have "forgiven" and still use it, because it's easy. I wouldn't use WhatsApp to exchange atomic bomb start codes[^1], but I use it for everyday communication.
-[^1]: Hello NSA!
+WhatsApp has had some issues like unencrypted connections, but I think users have "forgiven" and still use it, because it's easy. I wouldn't use WhatsApp to exchange atomic bomb start codes, but I use it for everyday communication.
 
 # Alternatives
 When the fact that WhatsApp uses unencrypted connections got public, those who care thought about switching to other platforms. There are alternatives, like LINE or Viber (which got acquired too the other day), but I don't think that's possible:
