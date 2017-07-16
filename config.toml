@@ -19,6 +19,7 @@ hrefTargetBlank = true
 [taxonomies]
 	series = "series"
 	tag = "tags" 
+	region = "regions"
 
 [permalinks]
 	post = "/:section/:year/:month/:title/"

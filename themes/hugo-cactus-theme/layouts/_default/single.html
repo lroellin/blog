@@ -1,24 +1,23 @@
 {{ define "main" }}
 <article class="post">
     <header>
-        <h1>{{ .Title }}</h1>
+        <h1>
+            {{ .Title }}
+        </h1>
         <h2 class="headline">
         {{ .Date.Format "January 2, 2006" }}
         <a href="https://github.com/lroellin/blog/blame/master/content/{{ .File.Path }}"><i class="fa fa-history" aria-hidden="true"></i></a>
         <br>
+        {{ partial "regions.html" . }}
         {{ with .Params.tags }}
-        {{ if ge (len .) 1 }}
             {{ range . }}
                 <a href="{{ printf "tags/%s" (. | urlize) | absURL }}">{{ . }} <i class="fa fa-tag" aria-hidden="true"></i></a>
             {{ end }}
-        {{ end }}
         {{ end}}
         {{ with .Params.series }}
-        {{ if ge (len .) 1 }}
             {{ range . }}
                 <a href="{{ printf "series/%s" (. | urlize) | absURL }}">{{ . }} <i class="fa fa-book" aria-hidden="true"></i></a>
             {{ end }}
-        {{ end }}
         {{ end}}
         <br>
         {{ .WordCount }} words, a {{.ReadingTime }} minutes read
