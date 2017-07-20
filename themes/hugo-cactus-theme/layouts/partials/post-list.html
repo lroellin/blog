@@ -4,7 +4,13 @@
             <a href='{{ .URL }}'><aside class="dates">{{ .Date.Format "Jan 2 2006" }}</aside></a>
             <a href='{{ .URL }}'>
                 {{ partial "regions.html" . }}
+                {{ if .Draft }}
+                    <s>
+                {{ end }}
                 {{ .LinkTitle }}
+                {{ if .Draft }}
+                    </s>
+                {{ end }}
             </a>
         </li>
     {{ end }}
