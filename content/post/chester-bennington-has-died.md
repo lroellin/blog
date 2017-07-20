@@ -14,7 +14,6 @@ To me, Linkin Park and of course Chester as the one you heard the most, has a sp
 Linkin Park has changed their style with almost every album. I didn't like the newer ones that much as I did the older stuff, but you always knew there was gonna be another one. Minutes to Midnight was revolutionary compared to Hybrid Theory and Meteora (not counting Reanimation) and many didn't like it. I did, and it set the mood for albums to come. A Thousand Suns and Living Things were more on the electronic side of music, while The Hunting Party returned to their metal roots. And One More Light was more like Minutes to Midnight.
 
 The thing is, I didn't like all those albums. But I did like at least some songs of each one. And if I did like it, I listened to it a thousand times, and for some songs that may not even be exaggerated.
-Bla
 
 **Maybe my mind is playing tricks on me**, but I do remember that I thought about Chester especially in the song One More Light. It begins with these lines:
 
