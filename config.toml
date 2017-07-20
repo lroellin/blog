@@ -7,7 +7,6 @@ theme = "hugo-cactus-theme"
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
 
-buildDrafts = true
 navigateToChanged = true
 cleanDestinationDir = true
 
@@ -15,6 +14,7 @@ preserveTaxonomyNames = true
 
 [blackfriday]
 hrefTargetBlank = true
+extensions = ["hardLineBreak"]
 
 [[menu.main]]
     name = "About"

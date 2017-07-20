@@ -23,7 +23,6 @@ Read that article, he's writing of the same thing I want to tell you. Instead of
 When you're starting to program, you often have easy problems where you're developing a little algorithm. Take this as an example:
 
 > ![](/post/pyramide.png)
-
 > Given a height h, write a program that calculates the amount of bricks needed for each line and in total.
 
 You'll be having a solution to this problem in no time at all. If you find this too easy, think of a solution for a 3D-pyramid like this, full and hollowed.

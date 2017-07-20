@@ -22,9 +22,7 @@ do {
 This makes no sense at all. According to K&R:
 
 > while (expression)
-
 > statement
-
 > The expression is evaluated. If it is non-zero, statement is executed and expression is reevaluated. This cycle continues until expression becomes zero, at which point execution resumes after statement.
 
 ... which basically means "it'll do what you told it, as long as expression is true". The `while` statement is a pre-test-loop which means that it tests first, then runs the code. If the test fails on the first run, the code won't run.
@@ -32,11 +30,8 @@ This makes no sense at all. According to K&R:
 Then there's the `do-while` loop. Let's get back to praised K&R:
 
 > do
-
 > statement
-
 > while (expression);
-
 > The statement is executed, then expression is evaluated. If it is true, statement is evaluated again, and so on. When the expression becomes false, the loop terminates.
 
 ... which means about the same, except this is a post-test-loop. This means the code will run at least once, even if the test will fail afterwards; it stops then. (There are `for` loops to consider as well, but they're more for counting or iterating).

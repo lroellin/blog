@@ -4,17 +4,11 @@ date = 2016-10-04T15:56:54+02:00
 +++
 
 > Hello darkness, my old friend
-
 > I've come to talk with you again
-
 > Because a vision softly creeping
-
-> Left its seeds while I was s
-
+> Left its seeds while I was sleeping
 > And the vision that was planted in my brain
-
 > Still remains
-
 > Within the sound of silence
 
 I think almost everyone knows these lyrics, at least the start of it. Now according to Spotify these are the most heard lines of Disturbed. Let that sink in for a moment. The heavy metal band's most heard song is a cover of The Sound of Silence by Simon and Garfunkel.
