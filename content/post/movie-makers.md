@@ -1,5 +1,5 @@
 +++
-title = "Movie Makers"
+title = "Movie makers: get your shit together"
 date = 2017-08-10T12:45:20+02:00
 +++
 
