@@ -1,7 +1,6 @@
 +++
 title = "Python for Java Programmers - Getter and Setter"
 date = 2017-05-05T16:32:10+02:00
-series = ["Python for Java Programmers"]
 +++
 
 I'm currently in the process of learning Python. What I know is Java and C# and some script languages like PowerShell. I want to tell about my journey a bit since you're getting in a kind of culture shock when going from Java to Python
